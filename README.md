@@ -1,2 +1,2 @@
-# -trybe-exercicios
+# trybe-exercicios
 Exercicios propostos pela trybe
