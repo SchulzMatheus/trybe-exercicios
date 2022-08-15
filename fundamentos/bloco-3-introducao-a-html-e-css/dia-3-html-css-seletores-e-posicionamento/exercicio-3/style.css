@@ -9,3 +9,6 @@ li:active
 {
     font-style: italic;
 }
+ol, ul {
+    list-style: none;
+}
