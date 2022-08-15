@@ -5,3 +5,7 @@ h1, p {
 ol:hover{
     background-color: blanchedalmond;
 }
+li:active
+{
+    font-style: italic;
+}
