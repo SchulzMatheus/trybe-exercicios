@@ -15,20 +15,23 @@
 
     position: absolute;
     width: 400px;
-    top: 400px;
-    left: 30px;
+    top: 20px;
+    left: 200px;
     z-index: 1;
   }
   
   .speech {
     font-size: 25px;
     position: absolute;
-    top: 460px;
-    left: 70px;
+    top: 45x;
+    left: 250px;
     z-index: 2;
   }
   
   .bowser {
     width: 200px;
+    position: absolute;
+    left: 600px;
+    top: 200px;
     
   }
