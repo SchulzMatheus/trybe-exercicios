@@ -20,3 +20,6 @@ ol > li {
   li em {
     font-weight: bold;
   }
+  ul:first-of-type > li:nth-child(-n+3) {
+    color: blue;
+}
