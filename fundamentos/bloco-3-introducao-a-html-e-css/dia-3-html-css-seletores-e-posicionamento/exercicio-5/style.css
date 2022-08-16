@@ -4,3 +4,6 @@ ol > li {
   ol > li:nth-child(2n) {
     color: green;
   }
+  ol > li:nth-child(2n+1) {
+    text-transform: uppercase;
+  }
