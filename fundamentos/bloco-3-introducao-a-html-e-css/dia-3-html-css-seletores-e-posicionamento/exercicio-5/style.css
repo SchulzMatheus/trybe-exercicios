@@ -1,0 +1,44 @@
+ol > li {
+    background-color: yellow;
+  }
+  ol > li:nth-child(2n) {
+    color: green;
+  }
+  ol > li:nth-child(2n+1) {
+    text-transform: uppercase;
+  }
+  h1, h3 {
+    color: red;
+  }
+  h1 em /*O em significa os h1 em italico*/ {
+    font-size: 40px;
+    border: 1px solid black;
+  }
+  li {
+    font-size: 20px;
+  }
+  li em {
+    font-weight: bold;
+  }
+  ul:first-of-type > li:nth-child(-n+3) {
+    color: blue;
+}
+ul:first-of-type > li:nth-child(2) {
+    background-color: pink;
+  }
+
+  a[href*="devdocs.io"]:hover {
+    color: yellow;
+  }
+  a[href*="mozilla.org"]:hover {
+    color: black;
+  }
+  a[href*="stackoverflow.com"]:hover{
+    color: orange;
+  }
+  a[href*="w3schools.com"]:hover {
+    color: greenyellow;
+  }
+  a[href*="betrybe.com"]:hover {
+    color: green;
+  }

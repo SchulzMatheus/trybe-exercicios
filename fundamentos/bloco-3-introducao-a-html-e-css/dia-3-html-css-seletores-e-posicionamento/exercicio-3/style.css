@@ -1,0 +1,14 @@
+h1, p {
+    color: #003f5c;
+    text-align: center;
+}
+ol:hover{
+    background-color: blanchedalmond;
+}
+li:active
+{
+    font-style: italic;
+}
+ol, ul {
+    list-style: none;
+}
