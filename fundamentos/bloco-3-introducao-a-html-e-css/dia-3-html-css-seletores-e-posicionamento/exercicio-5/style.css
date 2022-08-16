@@ -23,3 +23,6 @@ ol > li {
   ul:first-of-type > li:nth-child(-n+3) {
     color: blue;
 }
+ul:first-of-type > li:nth-child(2) {
+    background-color: pink;
+  }
