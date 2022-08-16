@@ -24,7 +24,7 @@ div:nth-of-type(1) {
   }
   
   h3 {
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   div:nth-of-type(2n+1) > h3 {
