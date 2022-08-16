@@ -10,3 +10,7 @@ ol > li {
   h1, h3 {
     color: red;
   }
+  h1 em /*O em significa os h1 em italico*/ {
+    font-size: 40px;
+    border: 1px solid black;
+  }
