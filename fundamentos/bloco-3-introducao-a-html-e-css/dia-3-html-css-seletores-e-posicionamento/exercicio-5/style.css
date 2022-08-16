@@ -26,3 +26,19 @@ ol > li {
 ul:first-of-type > li:nth-child(2) {
     background-color: pink;
   }
+
+  a[href*="devdocs.io"]:hover {
+    color: yellow;
+  }
+  a[href*="mozilla.org"]:hover {
+    color: black;
+  }
+  a[href*="stackoverflow.com"]:hover{
+    color: orange;
+  }
+  a[href*="w3schools.com"]:hover {
+    color: greenyellow;
+  }
+  a[href*="betrybe.com"]:hover {
+    color: green;
+  }
