@@ -18,5 +18,14 @@ rl.question('Qual a sua nota? ', (nota) => {
     else if (nota >= 70){
         console.log ('Sua nota foi C')
     }
+    else if (nota>=50){
+        console.log('Sua nota foi D')
+    }
+    else if (nota<50 && nota>=0){
+        console.log('Sua nota foi F')
+    }
+    else {
+        console.log('Dados errados')
+    }
     
   });
