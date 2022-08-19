@@ -1,6 +1,6 @@
 let peca = ('CAVALO'.toLowerCase())
 
-const nome = prompt('Digite seu nome')
+
 switch(peca){
     case 'peão':
         console.log('uma casa para frente')
@@ -24,5 +24,6 @@ switch(peca){
         console.log('peça incorreta')    
 
 }
+
 
     
