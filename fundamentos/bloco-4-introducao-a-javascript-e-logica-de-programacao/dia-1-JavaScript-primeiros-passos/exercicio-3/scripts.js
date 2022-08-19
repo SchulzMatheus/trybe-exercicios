@@ -1,5 +1,5 @@
 const nota = 101;
-if(nota>=80)
+if(nota>=80 && nota <= 100)
 {
     console.log("Parabéns, você foi aprovado(a)!");
 }
