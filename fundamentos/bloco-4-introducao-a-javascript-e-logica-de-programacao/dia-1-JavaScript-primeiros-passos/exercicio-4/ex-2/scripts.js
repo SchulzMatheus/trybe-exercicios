@@ -1,4 +1,4 @@
-let weekDay = 'quarta-feira';
+let weekDay = 'terça-feira';
 if(weekDay = 'segunda-feira' || 'terça-feira' || 'quarta-feira' || 'quinta-feira' || 'sexta-feira'){
    console.log("Oba, mais um dia de aprendizado na Trybe >:D");
 }
