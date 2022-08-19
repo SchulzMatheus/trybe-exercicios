@@ -1,4 +1,4 @@
-
+//para que esse codigo corra de maneira correta voce deve executar no terminal dentro da pagina node scripts.js, pois no output do vscode n permite entrada.
 const readline = require('readline');
 let peca = ''
 const rl = readline.createInterface({
