@@ -1,4 +1,4 @@
-const nota = 81;
+const nota = 59;
 if(nota>=80)
 {
     console.log("Parabéns, você foi aprovado(a)!");
