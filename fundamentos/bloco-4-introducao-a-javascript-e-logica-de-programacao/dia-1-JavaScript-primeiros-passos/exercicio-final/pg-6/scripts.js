@@ -1,7 +1,15 @@
-let peca = ('CAVALO'.toLowerCase())
+//para que esse codigo corra de maneira correta voce deve executar no terminal dentro da pagina node scripts.js, pois no output do vscode n permite entrada.
+const readline = require('readline');
+let peca = ''
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
 
-
-switch(peca){
+rl.question('Qual a sua peca? ', (peca) => {
+  console.log(`sua peça é o ${peca}!`);
+  peca = (peca .toLocaleLowerCase())
+  switch(peca){
     case 'peão':
         console.log('uma casa para frente')
         break
@@ -24,6 +32,9 @@ switch(peca){
         console.log('peça incorreta')    
 
 }
+});
+
+
 
 
     
