@@ -4,4 +4,6 @@ for(let sum = 0; sum < numbers.length; sum++)
 {
     count = count+numbers[sum]
 }
-console.log(count)
+let md;
+md = count/(numbers.length-1)
+console.log(md);
