@@ -1,3 +1,4 @@
+
 /*let names = ['João', 'Maria', 'Antônio', 'Margarida'];
 
 for(let index = 0; index<names.length; index++)
@@ -23,8 +24,8 @@ while (d1 === d2) {
     d2 = dice();
     a++
     console.log(a)
-}*/
-let fat = 0;
+}
+let fat = 10;
 let x = fat;
 let start = fat - 1
 for(let index = start; index>1; index--)
@@ -33,17 +34,4 @@ for(let index = start; index>1; index--)
     console.log(x)
 }
 console.log(x);
-
-/*let a = 10;
-function tir(fatorial)
-{          
-    var r = fat;
-    var primeiroMultipicador = fatorial - 1;
-    for (var i = primeiroMultipicador; i > 1; i--) {
-        r *= i;
-    }
-     
-    return r;
-}
-console.log(tir(a))*/
-
+*/
