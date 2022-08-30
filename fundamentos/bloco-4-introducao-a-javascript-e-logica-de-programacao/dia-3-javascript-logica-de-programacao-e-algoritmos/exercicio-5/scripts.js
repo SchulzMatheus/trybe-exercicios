@@ -19,7 +19,7 @@ for (let linha = 1; linha <= a; linha++) {
     console.log(b)
  } 
 
-   */ let base = 5
+   *//* let base = 5
     
     for(let i = 0; i<base; i++){
       let a = '';
@@ -30,5 +30,5 @@ for (let linha = 1; linha <= a; linha++) {
         a += '*'
       }
       console.log(a)
-    }
+    }*/
   
