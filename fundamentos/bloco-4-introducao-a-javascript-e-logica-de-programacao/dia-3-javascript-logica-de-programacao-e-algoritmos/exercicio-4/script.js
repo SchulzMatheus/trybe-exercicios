@@ -12,7 +12,7 @@ let n = 50;
           qtd ++;
        }
     }
-
+    console.log(qtd)
     if (qtd % i == 0) {
        np.push(i);
     }
