@@ -13,7 +13,9 @@ let newObject = {
 }
 for (key in info)
 {
-    
+    if (info[key] == newObject[key]) {
+        console.log('Ambos recorrentes');
+        return; }
     console.log(info[key], 'e', newObject[key])
 }
     
