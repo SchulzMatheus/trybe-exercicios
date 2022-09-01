@@ -20,28 +20,18 @@ Contém todas as atividades desenvolvidas por __[Matheus Simplicio](https://www.
 ### Bloco 3: Introdução à HTML e CSS
 - [x] 3.1 - Introdução - HTML & CSS
 - [x] 3.1 - HTML & CSS - Estruturas de página
-
-Exercicio: Consiste em criar uma lista não ordenada contendo nome de pessoas e fazer o link entre o nome dessas pessoas e as informações dele também contidas no site. (Link interno)
-E também criar um link externo para direcionar para um site (Link externo).
-Ambas as tarefas devem ser feitas usando apenas HTML.
-
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
-
-Exercicio 1: Consiste em modificar elementos html usando comandos css dentro de uma tag style
-
-Exercicio 2: Consiste em criar um arquivo a parte style.css para escrever os comandos outrora usado dentro da tag style e depois linkar esse arquivo style.css dentro do index.
-
-- [ ] 3.3 - HTML & CSS - Seletores e posicionamento
-- [ ] 3.4 - HTML Semântico
-- [ ] 3.5 - Projeto - Lessons Learned
+- [x] 3.3 - HTML & CSS - Seletores e posicionamento
+- [x] 3.4 - HTML Semântico
+- [x] 3.5 - Projeto - Lessons Learned
 
 ### Bloco 4: Introdução à JavaScript e Lógica de Programação
-- [ ] 4.1 - Introdução - JavaScript
-- [ ] 4.1 - JavaScript - Primeiros passos
-- [ ] 4.2 - JavaScript - Array e loop For
-- [ ] 4.3 - JavaScript - Lógica de Programação e Algoritmos
-- [ ] 4.4 - JavaScript - Objetos e funções
-- [ ] 4.5 - Projeto - Playground Functions
+- [x] 4.1 - Introdução - JavaScript
+- [x] 4.1 - JavaScript - Primeiros passos
+- [x] 4.2 - JavaScript - Array e loop For
+- [x] 4.3 - JavaScript - Lógica de Programação e Algoritmos
+- [x] 4.4 - JavaScript - Objetos e funções
+- [x] 4.5 - Projeto - Playground Functions
 
 ### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 - [ ] 5.1 - JavaScript - DOM e seletores
