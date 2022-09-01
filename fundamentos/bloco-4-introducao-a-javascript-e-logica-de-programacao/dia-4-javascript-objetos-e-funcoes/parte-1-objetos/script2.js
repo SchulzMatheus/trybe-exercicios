@@ -1,9 +1,9 @@
 let info = {
-    personagem: ['Margarida', 'patolino'], 
+    personagem: 'Margarida',
     origem: 'Pato Donald',
     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
     
   }
 
-  info['recorrente'] = 'Sim'
+  info['recorrente'] = 'sim'
   console.log(info)
