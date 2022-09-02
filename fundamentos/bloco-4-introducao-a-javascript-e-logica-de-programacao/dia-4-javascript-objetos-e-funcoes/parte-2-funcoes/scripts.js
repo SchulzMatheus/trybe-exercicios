@@ -49,8 +49,7 @@ function longestWord(array) {
         }
     return longestWord
 }
-
-   function count (arrayofNumbers){
+function count (arrayofNumbers){
     let qtd = {}; // objeto pra armazenar o numero e sua quantidade
     let mrn = 0;
     let rc = 0;
@@ -73,11 +72,30 @@ function longestWord(array) {
         }
 
     return mrn;    
+} 
+function somatorio(number) {
+    let arrayofNumbers = []
+    for(let i=0; i<number; i++){
+        arrayofNumbers.push(i+1);
+        }
+    let soma = 0;
+    for (i in arrayofNumbers){
+        soma += arrayofNumbers[i];
+        }
+    return soma;
+}
+function stringCompare(string1, string2)
+{
+    a = ''
+    for (let i = string1.length - string2.length; i<string1.length; i++){
+        a = a + string1[i];
     }
-   
-      
-      
-   
+    if (a === string2)
+    {
+        return true;
+    }
+    return false;
+}
   
 
  
