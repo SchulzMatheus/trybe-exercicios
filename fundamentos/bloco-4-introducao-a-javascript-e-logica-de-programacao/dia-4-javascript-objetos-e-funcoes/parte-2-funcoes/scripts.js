@@ -40,28 +40,16 @@ function lowestCount(arrayofNumbers){
     }
     return x
 }
-function highestWord(array) {
-    let a = []
-    let b = []
-    
-    for(let i = 0; i<array.length; i++)
-    {
-        a = array[i].split("");
-        b.push(a.length) 
-    }
-    let maiorNumero = b.length
-    
-    let xz = [];
-    for(let i = 0; i<b.length; i++)
-    {
-        if(maiorNumero<b[i])
+function lowestWord(array) {
+    let longestWord = array[0]
+    for(let i = 0; i< array.length; i++)
         {
-            xz.push(array[i])
+            if (array[i].length > longestWord.length)
+            longestWord = array[i]
         }
-    }
-    
-    return xz;
+    return longestWord
 }
-
+let tu = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+console.log(lowestWord(tu))
 
 
