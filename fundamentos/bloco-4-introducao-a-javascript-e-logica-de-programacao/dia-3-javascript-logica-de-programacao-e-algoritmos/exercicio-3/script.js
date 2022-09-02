@@ -1,21 +1,9 @@
-let array = ['java', 'javascript', 'python', 'html', 'css'];
-let a = []
-let b = []
+let array = ['java', 'javascript', 'python', 'htmla', 'css'];
 
-for(let i = 0; i<array.length; i++)
-{
-    a = array[i].split("");
-    b.push(a.length) 
-}
-let maiorNumero = 0;
-let c = 0;
-for(let i = 0; i<b.length; i++)
-{
-    if(maiorNumero>b[i])
+let lowestWord = array[0]
+for(let i = 0; i< array.length; i++)
     {
-        maiorNumero=b[i]
-        c = i;
+        if (array[i].length < lowestWord.length)
+        lowestWord = array[i]
     }
-}
-
-console.log(array[c])
+ console.log(lowestWord)
