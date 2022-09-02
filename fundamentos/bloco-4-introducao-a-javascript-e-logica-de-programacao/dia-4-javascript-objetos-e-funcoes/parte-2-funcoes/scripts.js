@@ -40,7 +40,7 @@ function lowestCount(arrayofNumbers){
     }
     return x
 }
-function lowestWord(array) {
+function longestWord(array) {
     let longestWord = array[0]
     for(let i = 0; i< array.length; i++)
         {
@@ -49,7 +49,35 @@ function lowestWord(array) {
         }
     return longestWord
 }
-let tu = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
-console.log(lowestWord(tu))
 
+   function count (arrayofNumbers){
+    let qtd = {}; // objeto pra armazenar o numero e sua quantidade
+    let mrn = 0;
+    let rc = 0;
+    for (let i of arrayofNumbers) {
+        qtd[i] = (qtd[i] || 0) + 1;    //deve se atribuir a qtd[i] o valor atual (ou 0 caso seja a primeira ocorrencia) + 1 também poderia ser escrito da seguinte forma:
+/*    if (!qtd[i])
+            {
+            qtd[i] = 1;
+            } 
+            else {
+            qtd[i] += 1;
+            } 
+*/   
+    }
+      for (key in qtd)
+        {
+            if(qtd[key] > rc)
+            mrn = key     
+            rc = qtd[key]
+        }
 
+    return mrn;    
+    }
+   
+      
+      
+   
+  
+
+ 
