@@ -56,14 +56,12 @@ function highestWord(array) {
     {
         if(maiorNumero<b[i])
         {
-   
             xz.push(array[i])
         }
     }
     
     return xz;
 }
-let tu = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
-console.log(highestWord(tu))
+
 
 
