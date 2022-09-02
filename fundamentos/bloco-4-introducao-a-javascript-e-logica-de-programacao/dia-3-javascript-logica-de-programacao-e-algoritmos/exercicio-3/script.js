@@ -8,15 +8,12 @@ for(let i = 0; i<array.length; i++)
     b.push(a.length) 
 }
 let maiorNumero = b.length
-let c
 let xz = []
 for(let i = 0; i < b.length; i++)
 {
     if(maiorNumero >= b[i])
     {
-        maiorNumero=b[i]
-        c = i;
-        xz.push(array[c])
+        xz.push(array[i])
     }
 }
 
