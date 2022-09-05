@@ -39,6 +39,9 @@ for(let i = 0; i<3; i++){
 document.getElementsByTagName('h1')[0].className = 'title'
 const sec = document.getElementsByClassName('main-content')[0]
 sec.removeChild(sec.firstChild.nextSibling)
+document.getElementsByClassName('right-content')[0].id = 'right-content'
+document.getElementById('right-content').style.marginRight = 'auto'
+
 
 
 
