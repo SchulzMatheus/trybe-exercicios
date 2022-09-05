@@ -4,6 +4,10 @@ let section = document.createElement('section')
 let section2 = document.createElement('section')
 let section3 = document.createElement('section')
 let p = document.createElement('p')
+let img = document.createElement('img')
+let ul = document.createElement('ul')
+
+let arrayOfString = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
 document.body.appendChild(h1)
 document.body.appendChild(main)
 document.getElementsByTagName('h1')[0].innerHTML = 'Exercício 5.2 - JavaScript DOM'
@@ -18,6 +22,23 @@ document.getElementsByClassName('main-content')[0].appendChild(section2)
 document.getElementsByClassName('main-content')[0].lastChild.className = 'left-content'
 document.getElementsByClassName('main-content')[0].appendChild(section3)
 document.getElementsByClassName('main-content')[0].lastChild.className = 'right-content'
+document.getElementsByClassName('left-content')[0].appendChild(img)
+document.getElementsByClassName('left-content')[0].firstChild.src = 'https://picsum.photos/200'
+document.getElementsByClassName('left-content')[0].firstChild.className = 'small-image'
+document.getElementsByClassName('right-content')[0].appendChild(ul)
+document.getElementsByClassName('right-content')[0].firstChild.id = 'ul'
+for(let i = 0; i<arrayOfString.length; i++){
+    const li = document.createElement('li')
+    document.getElementById('ul').appendChild(li)
+    document.getElementById('ul').lastChild.innerHTML = arrayOfString[i]
+}
+for(let i = 0; i<3; i++){
+    const h3 = document.createElement('h3')
+    document.getElementsByClassName('main-content')[0].appendChild(h3)
+    document.getElementsByClassName('main-content')[0].lastChild.className = 'description'
+
+}
+
 
 
 
