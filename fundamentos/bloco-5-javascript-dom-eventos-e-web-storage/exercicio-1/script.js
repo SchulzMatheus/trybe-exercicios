@@ -11,12 +11,11 @@ let section = document.createElement('section')
 let pai = document.getElementById('pai')
 pai.appendChild(section)
 document.getElementById('pai').lastChild.id = 'elementoOndeVoceEstaBrother'
-let newElement = document.createElement('section')
 let elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta')
-elementoOndeVoceEsta.appendChild(newElement)
+elementoOndeVoceEsta.appendChild(section)
 document.getElementById('elementoOndeVoceEsta').lastElementChild.id = 'lastElementoOndeVoceEstaChild'
 let pFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho')
-pFilhoDoFilho.appendChild(newElement)
+pFilhoDoFilho.appendChild(section)
 document.getElementById('primeiroFilhoDoFilho').lastElementChild.id = 'lastpFilhoDoFilhoChild'
 console.log(document.getElementById('lastpFilhoDoFilhoChild').parentElement.parentElement.nextElementSibling)
 
