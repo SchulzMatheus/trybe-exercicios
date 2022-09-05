@@ -11,5 +11,10 @@ let section = document.createElement('section')
 let pai = document.getElementById('pai')
 pai.appendChild(section)
 document.getElementById('pai').lastChild.id = 'elementoOndeVoceEstaBrother'
+let newElement = document.createElement('section')
+let elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta')
+elementoOndeVoceEsta.appendChild(newElement)
+document.getElementById('elementoOndeVoceEsta').lastElementChild.id = 'lastElementoOndeVoceEstaChild'
+
 
 
