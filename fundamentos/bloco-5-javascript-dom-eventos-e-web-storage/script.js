@@ -1,6 +1,8 @@
 let h1 = document.createElement('h1')
 let main = document.createElement('main')
 let section = document.createElement('section')
+let section2 = document.createElement('section')
+let section3 = document.createElement('section')
 let p = document.createElement('p')
 document.body.appendChild(h1)
 document.body.appendChild(main)
@@ -12,6 +14,12 @@ document.getElementsByClassName('main-content')[0].firstChild.className = 'cente
 document.getElementsByClassName('center-content')[0].appendChild(p);
 document.getElementsByClassName('center-content')[0].firstChild.innerHTML = 'Lorem Ipsum'
 document.getElementsByClassName('center-content')[0].firstChild.style.textAlign = 'center'
+document.getElementsByClassName('main-content')[0].appendChild(section2)
+document.getElementsByClassName('main-content')[0].lastChild.className = 'left-content'
+document.getElementsByClassName('main-content')[0].appendChild(section3)
+document.getElementsByClassName('main-content')[0].lastChild.className = 'right-content'
+
+
 
 
 
