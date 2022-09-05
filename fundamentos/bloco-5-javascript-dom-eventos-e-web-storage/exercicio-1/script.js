@@ -18,6 +18,28 @@ let pFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho')
 pFilhoDoFilho.appendChild(section)
 document.getElementById('primeiroFilhoDoFilho').lastElementChild.id = 'lastpFilhoDoFilhoChild'
 console.log(document.getElementById('lastpFilhoDoFilhoChild').parentElement.parentElement.nextElementSibling)
+let controller = pai.children.length
+for (let i = 0; i<controller;  i++){
+  if (pai.children.id != 'elementoOndeVoceEsta'){
+        if(pai.firstChild.id !='elementoOndeVoceEsta'){
+            pai.removeChild(document.getElementById('pai').firstChild)
+        }
+        pai.removeChild(document.getElementById('pai').lastChild)
+    }
+}
+let controller2 = elementoOndeVoceEsta.children.length
+
+for (let i = 0; i<controller2; i++)
+
+{
+    if(elementoOndeVoceEsta.children.id != 'primeiroFilhoDoFilho'){
+        if(elementoOndeVoceEsta.firstChild.id != 'primeiroFilhoDoFilho'){
+            elementoOndeVoceEsta.removeChild(document.getElementById('elementoOndeVoceEsta').firstChild)
+        }
+        elementoOndeVoceEsta.removeChild(document.getElementById('elementoOndeVoceEsta').lastChild)
+    }
+}
+
 
 
 
