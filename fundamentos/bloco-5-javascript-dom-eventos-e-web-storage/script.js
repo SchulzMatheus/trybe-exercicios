@@ -41,6 +41,12 @@ const sec = document.getElementsByClassName('main-content')[0]
 sec.removeChild(sec.firstChild.nextSibling)
 document.getElementsByClassName('right-content')[0].id = 'right-content'
 document.getElementById('right-content').style.marginRight = 'auto'
+let pai = document.getElementsByClassName('center-content')[0].parentElement
+pai.style.backgroundColor = 'green'
+list = document.getElementById('ul')
+for(let i = 0; i<2; i++){
+    ul.removeChild(document.getElementById('ul').lastChild)
+}
 
 
 
