@@ -9,7 +9,9 @@ document.getElementsByTagName('h1')[0].style.textAlign = 'center'
 document.getElementsByTagName('main')[0].className = 'main-content'
 document.getElementsByClassName('main-content')[0].appendChild(section)
 document.getElementsByClassName('main-content')[0].firstChild.className = 'center-content'
-document.getElementsByClassName('center-content')[0].appendChild(p)
+document.getElementsByClassName('center-content')[0].appendChild(p);
+document.getElementsByClassName('center-content')[0].firstChild.innerHTML = 'Lorem Ipsum'
+document.getElementsByClassName('center-content')[0].firstChild.style.textAlign = 'center'
 
 
 
