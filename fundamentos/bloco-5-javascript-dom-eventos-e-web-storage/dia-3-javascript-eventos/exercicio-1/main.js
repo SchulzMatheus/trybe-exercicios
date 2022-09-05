@@ -15,12 +15,17 @@ for(let i = 0; i<3  ; i++){
     li[i].addEventListener('click', addClassName)
 }
 
+const elementTech = document.getElementsByClassName('tech')
+
+function textEdit(event){
+    const newText = event.target.value
+    const tech = elementTech[0]
+    tech.innerHTML = newText
+}
+input.addEventListener('input', textEdit)
 
 
 
-
-// 2. Crie uma função que adicione a classe 'tech' ao elemento `li` quando for clicado.
-// 2.1. Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
 
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
