@@ -17,6 +17,8 @@ elementoOndeVoceEsta.appendChild(newElement)
 document.getElementById('elementoOndeVoceEsta').lastElementChild.id = 'lastElementoOndeVoceEstaChild'
 let pFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho')
 pFilhoDoFilho.appendChild(newElement)
+document.getElementById('primeiroFilhoDoFilho').lastElementChild.id = 'lastpFilhoDoFilhoChild'
+console.log(document.getElementById('lastpFilhoDoFilhoChild').parentElement.parentElement.nextElementSibling)
 
 
 
