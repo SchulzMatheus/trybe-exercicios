@@ -4,3 +4,6 @@ document.getElementById('elementoOndeVoceEsta').parentElement.style.color = 'blu
 document.getElementById('elementoOndeVoceEsta').firstElementChild.innerHTML = 'Pão'
 console.log(document.getElementById('pai').firstElementChild)
 console.log(document.getElementById('elementoOndeVoceEsta').previousElementSibling)
+console.log(document.getElementById('elementoOndeVoceEsta').nextSibling)
+console.log(document.getElementById('elementoOndeVoceEsta').nextSibling.nextSibling)
+console.log(document.getElementById('pai').lastElementChild.previousElementSibling)
