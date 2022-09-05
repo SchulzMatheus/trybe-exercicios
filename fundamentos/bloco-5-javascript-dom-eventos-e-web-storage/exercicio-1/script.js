@@ -15,6 +15,8 @@ let newElement = document.createElement('section')
 let elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta')
 elementoOndeVoceEsta.appendChild(newElement)
 document.getElementById('elementoOndeVoceEsta').lastElementChild.id = 'lastElementoOndeVoceEstaChild'
+let pFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho')
+pFilhoDoFilho.appendChild(newElement)
 
 
 
