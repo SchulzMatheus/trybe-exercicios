@@ -7,3 +7,9 @@ console.log(document.getElementById('elementoOndeVoceEsta').previousElementSibli
 console.log(document.getElementById('elementoOndeVoceEsta').nextSibling)
 console.log(document.getElementById('elementoOndeVoceEsta').nextSibling.nextSibling)
 console.log(document.getElementById('pai').lastElementChild.previousElementSibling)
+let section = document.createElement('section')
+let pai = document.getElementById('pai')
+pai.appendChild(section)
+document.getElementById('pai').lastChild.id = 'elementoOndeVoceEstaBrother'
+
+
