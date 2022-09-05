@@ -37,6 +37,8 @@ for(let i = 0; i<3; i++){
     document.getElementsByClassName('main-content')[0].lastChild.className = 'description'
 }
 document.getElementsByTagName('h1')[0].className = 'title'
+const sec = document.getElementsByClassName('main-content')[0]
+sec.removeChild(sec.firstChild.nextSibling)
 
 
 
