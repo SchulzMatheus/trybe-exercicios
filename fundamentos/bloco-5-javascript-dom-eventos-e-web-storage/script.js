@@ -6,7 +6,6 @@ let section3 = document.createElement('section')
 let p = document.createElement('p')
 let img = document.createElement('img')
 let ul = document.createElement('ul')
-
 let arrayOfString = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
 document.body.appendChild(h1)
 document.body.appendChild(main)
@@ -36,8 +35,8 @@ for(let i = 0; i<3; i++){
     const h3 = document.createElement('h3')
     document.getElementsByClassName('main-content')[0].appendChild(h3)
     document.getElementsByClassName('main-content')[0].lastChild.className = 'description'
-
 }
+document.getElementsByTagName('h1')[0].className = 'title'
 
 
 
