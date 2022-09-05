@@ -30,7 +30,6 @@ for (let i = 0; i<controller;  i++){
 let controller2 = elementoOndeVoceEsta.children.length
 
 for (let i = 0; i<controller2; i++)
-
 {
     if(elementoOndeVoceEsta.children.id != 'primeiroFilhoDoFilho'){
         if(elementoOndeVoceEsta.firstChild.id != 'primeiroFilhoDoFilho'){
@@ -39,6 +38,8 @@ for (let i = 0; i<controller2; i++)
         elementoOndeVoceEsta.removeChild(document.getElementById('elementoOndeVoceEsta').lastChild)
     }
 }
+
+
 
 
 
