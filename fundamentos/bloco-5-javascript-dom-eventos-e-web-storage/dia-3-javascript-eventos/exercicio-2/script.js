@@ -37,9 +37,8 @@ for(let i = 0; i<decemberDaysList.length; i++){
         }
     }
     ul.appendChild(li)
-    
-}
 
+}
 function createFeriado(string)
 {
    const newButton = document.createElement('button')
@@ -48,3 +47,17 @@ function createFeriado(string)
    document.querySelector('.buttons-container').appendChild(newButton)
 }
 createFeriado('Feriados')
+const holidays = document.getElementsByClassName('holiday')
+function changeColor(){
+    if (holidays[0].style.backgroundColor === 'red'){
+        for(let index in holidays){
+            holidays[index].style.backgroundColor = "rgb(238,238,238)"
+        }
+    }   else {
+        for(let index in holidays){
+            holidays[index].style.backgroundColor = 'red';
+        }
+    }  
+}
+const but = document.getElementById('btn-holiday')
+but.addEventListener('click', changeColor)
