@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Formulário de login</title>
 </head>
-<body>
+<body id="body">
     <h1 id="titulo">Formulário de Login</h1>
-    <form action="" method="get">
+    <form id="form" action="" method="get">
         <label for="email">E-mail:</label><br>
-        <input id="email" placeholder="digite o seu email" name="email" type="text" required><br>
+        <input id="email" placeholder="digite o seu email" name="email" type="text" autocomplete="off" autofocus required><br>
         <label for="password">Password</label><br>
         <input id="password" placeholder="digite sua senha" name="email" type="text" required><br><br>
         <label for="remember">Lembre-me</label><br>
@@ -19,6 +20,5 @@
         <button id="login">Entrar!</button>
     </form>
 
-    
 </body>
 </html>
