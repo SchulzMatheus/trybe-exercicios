@@ -57,11 +57,11 @@
 
 // console.log(calculator(sum))
 
-const wakeUp = (string) => string = 'Acordando!!';
-const breakfast = (string) => string = 'Bora tomar café!!';
-const sleep = (string) => string = 'partiu dormir!!';
+// const wakeUp = (string) => string = 'Acordando!!';
+// const breakfast = (string) => string = 'Bora tomar café!!';
+// const sleep = (string) => string = 'partiu dormir!!';
 
-const doingThings = (func) => func();
-console.log(doingThings(wakeUp))
-console.log(doingThings(sleep))
-console.log(doingThings(breakfast))
+// const doingThings = (func) => func();
+// console.log(doingThings(wakeUp))
+// console.log(doingThings(sleep))
+// console.log(doingThings(breakfast))
