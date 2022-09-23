@@ -109,11 +109,28 @@
 // const isDivisible = numbers.find(findDivisibleBy3And5);
 
 // console.log(isDivisible);
-const names = ['João', 'Irene', 'Fernando', 'Maria'];
+// const names = ['João', 'Irene', 'Fernando', 'Maria'];
 
-const findNameWithFiveLetters = (array) => {
-        if(array.length === 5) return true;
-};
+// const findNameWithFiveLetters = (array) => {
+//         if(array.length === 5) return true;
+// };
 
-const nameWithFive = names.find(findNameWithFiveLetters)
-console.log(nameWithFive);
+// const nameWithFive = names.find(findNameWithFiveLetters)
+// console.log(nameWithFive);
+// const listNames = ['Maria', 'Manuela', 'Jorge', 'Ricardo', 'Wilson'];
+
+// const verifyFirstLetter = (letter, names) => names.some((name) => name[0] === letter);
+
+// console.log(verifyFirstLetter('J', listNames)); // true
+// console.log(verifyFirstLetter('x', listNames)); // false
+const grades = {
+    portugues: 'Aprovado',
+    matematica: 'Reprovado',
+    ingles: 'Aprovado',
+  };
+  
+  const verifyGrades = (studentGrades) => (
+    Object.values(studentGrades).every((grade) => grade === 'Aprovado')
+  );
+  
+  console.log(verifyGrades(grades));
