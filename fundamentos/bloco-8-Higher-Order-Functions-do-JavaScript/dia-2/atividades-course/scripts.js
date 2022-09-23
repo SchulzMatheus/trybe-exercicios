@@ -100,12 +100,20 @@
 //   Index, posição do elemento: 3
 //   Array percorrido: [ 'josé', 50, 0.25, { comida: 'Chocolate' } ]
 
-const numbers = [19, 21, 30, 3, 45, 22, 15];
+// const numbers = [19, 21, 30, 3, 45, 22, 15];
 
-const findDivisibleBy3And5 = (number) => {
-  if(number % 5 === 0 && number % 3 === 0) return true; else return false;
+// const findDivisibleBy3And5 = (number) => {
+//   if(number % 5 === 0 && number % 3 === 0) return true; else return false;
+// };
+
+// const isDivisible = numbers.find(findDivisibleBy3And5);
+
+// console.log(isDivisible);
+const names = ['João', 'Irene', 'Fernando', 'Maria'];
+
+const findNameWithFiveLetters = (array) => {
+        if(array.length === 5) return true;
 };
 
-const isDivisible = numbers.find(findDivisibleBy3And5);
-
-console.log(isDivisible);
+const nameWithFive = names.find(findNameWithFiveLetters)
+console.log(nameWithFive);
