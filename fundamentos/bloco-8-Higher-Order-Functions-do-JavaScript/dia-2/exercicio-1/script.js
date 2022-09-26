@@ -78,4 +78,7 @@ const books = [
     let bookNamed26Cha
     return books.find((book) => book.name.length === 26)
   }
-  console.log(getNamedBook(books))
+  function booksOrderedByReleaseYearDesc() {
+    return books.sort((x, b) => b.releaseYear - x.releaseYear)
+  }
+  console.log(booksOrderedByReleaseYearDesc(books))
