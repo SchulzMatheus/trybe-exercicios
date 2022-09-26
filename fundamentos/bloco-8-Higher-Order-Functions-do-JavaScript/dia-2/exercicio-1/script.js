@@ -62,6 +62,9 @@ const books = [
   ];
   
   // Adicione o código do exercício aqui:
+  function authorBornIn1947(array) {
+    return books.find((book) => book.author.birthYear === 1947).author.name;}
+
   function smallerName(array) {
     let nameBook = array[0].name
     array.forEach((highName) => {
@@ -70,4 +73,4 @@ const books = [
     });
     return nameBook;
   };
-  console.log(smallerName(books))
+  console.log(authorBornIn1947(books))

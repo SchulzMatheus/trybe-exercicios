@@ -123,14 +123,14 @@
 
 // console.log(verifyFirstLetter('J', listNames)); // true
 // console.log(verifyFirstLetter('x', listNames)); // false
-const grades = {
-    portugues: 'Aprovado',
-    matematica: 'Reprovado',
-    ingles: 'Aprovado',
-  };
+// const grades = {
+//     portugues: 'Aprovado',
+//     matematica: 'Reprovado',
+//     ingles: 'Aprovado',
+//   };
   
-  const verifyGrades = (studentGrades) => (
-    Object.values(studentGrades).every((grade) => grade === 'Aprovado')
-  );
+//   const verifyGrades = (studentGrades) => (
+//     Object.values(studentGrades).every((grade) => grade === 'Aprovado')
+//   );
   
-  console.log(verifyGrades(grades));
+//   console.log(verifyGrades(grades));
