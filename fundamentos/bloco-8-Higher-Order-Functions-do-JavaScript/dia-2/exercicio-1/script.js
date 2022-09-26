@@ -73,4 +73,9 @@ const books = [
     });
     return nameBook;
   };
-  console.log(authorBornIn1947(books))
+
+  function getNamedBook(array) {
+    let bookNamed26Cha
+    return books.find((book) => book.name.length === 26)
+  }
+  console.log(getNamedBook(books))
