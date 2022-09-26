@@ -81,4 +81,7 @@ const books = [
   function booksOrderedByReleaseYearDesc() {
     return books.sort((x, b) => b.releaseYear - x.releaseYear)
   }
-  console.log(booksOrderedByReleaseYearDesc(books))
+function everyoneWasBornOnSecXX() {
+  return books.every((book) => (book.author.birthYear >= 1900 && book.author.birthYear < 2000));
+}
+  console.log(everyoneWasBornOnSecXX(books))
