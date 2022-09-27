@@ -87,4 +87,11 @@ function everyoneWasBornOnSecXX() {
 function someBookWasReleaseOnThe80s() {
     return books.some((book) => book.releaseYear >= 1980 && book.releaseYear < 1990);
 }
-  console.log(someBookWasReleaseOnThe80s(books))
+const expectedResult = false;
+function authorUnique() {
+  return books.every((book) =>
+    books.some((bookSome) =>
+      (bookSome.author.birthYear === book.author.birthYear)
+      && (bookSome.author.name !== book.author.name)));
+}
+  console.log(authorUnique(books))
