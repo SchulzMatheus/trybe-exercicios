@@ -67,10 +67,16 @@ const fantasyOrScienceFiction = (array) => array.filter((element) => {
   if(element.genre === 'Fantasia' || element.genre === 'Ficção Científica') return element;
 })
 const oldBooks = (array) => {
-   const x = array.filter((element) => (element.releaseYear < 2022 - 60))
+  const x = array.filter((element) => (element.releaseYear < 2022 - 60))
   return x.map((xElements) => (xElements.name)).sort((XelementX, XelementY) => XelementX.releaseYear - XelementY.releaseYear)
 }
+const expectedResult = 'O Senhor dos Anéis';
+
+const authorWith3DotsOnName = (array) => array.find((element) => (element.author.name.split (' ').filter((lastChar) => lastChar.endsWith('.')).length === 3)).name;
+
+
 module.exports = { formatedBook,
 nameAndAge,
 fantasyOrScienceFiction,
-oldBooks, };
+oldBooks,
+authorWith3DotsOnName };
