@@ -1,4 +1,4 @@
-const { formatedBook, nameAndAge, fantasyOrScienceFiction } = require('./script')
+const { formatedBook, nameAndAge, fantasyOrScienceFiction, oldBooks } = require('./script')
 
 const books = [
     {
@@ -137,5 +137,11 @@ describe('teste para as funções', () => {
         }
       ]);
     });
-
+    it('Verifica se a função fantasyOrScienceFiction  retorna o valor esperado', () => {
+      expect(oldBooks(books)).toEqual([
+        'O Senhor dos Anéis',
+        'Fundação',
+        'O Chamado de Cthulhu',
+      ]);
   });
+});

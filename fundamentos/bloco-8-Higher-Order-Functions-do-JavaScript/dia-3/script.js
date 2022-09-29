@@ -66,8 +66,11 @@ const nameAndAge = (array) => array.map((element) => ({author: element.author.na
 const fantasyOrScienceFiction = (array) => array.filter((element) => {
   if(element.genre === 'Fantasia' || element.genre === 'Ficção Científica') return element;
 })
-  // escreva seu código aqui
-console.log(fantasyOrScienceFiction(books));
+const oldBooks = (array) => {
+   const x = array.filter((element) => (element.releaseYear < 2022 - 60))
+  return x.map((xElements) => (xElements.name)).sort((XelementX, XelementY) => XelementX.releaseYear - XelementY.releaseYear)
+}
 module.exports = { formatedBook,
 nameAndAge,
-fantasyOrScienceFiction };
+fantasyOrScienceFiction,
+oldBooks, };
