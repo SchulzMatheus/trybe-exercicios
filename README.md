@@ -67,6 +67,8 @@ Contém todas as atividades desenvolvidas por __[Matheus Simplicio](https://www.
 - [x] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [x] 8.5 - Projeto - Zoo functions
 
+## Desenvolvimento Front-end :heavy_check_mark:
+
 ### Bloco 9: JavaScript Assíncrono e Promises
 - [x] 9.1 - JavaScript Assíncrono e Callbacks
 - [x] 9.2 - JavaScript Promises
@@ -77,8 +79,6 @@ Contém todas as atividades desenvolvidas por __[Matheus Simplicio](https://www.
 - [ ] 10.2 - Jest - Testes Assíncronos
 - [ ] 10.3 - Jest - Simulando comportamentos
 - [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
-
-## Desenvolvimento Front-end :heavy_check_mark:
 
 ### Bloco 11: Introdução à React
 - [ ] 11.1 - Introdução - Front-end
